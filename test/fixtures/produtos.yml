@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idProd: 1
+  dscProd: MyString
+  codMar: 1
+  idCat: 1
+  valor: 9.99
+  qtd: 1
+
+two:
+  idProd: 1
+  dscProd: MyString
+  codMar: 1
+  idCat: 1
+  valor: 9.99
+  qtd: 1

@@ -1,0 +1,2 @@
+class PlanoPgto < ApplicationRecord
+end

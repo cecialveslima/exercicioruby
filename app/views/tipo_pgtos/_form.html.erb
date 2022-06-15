@@ -1,0 +1,27 @@
+<%= form_with(model: tipo_pgto) do |form| %>
+  <% if tipo_pgto.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(tipo_pgto.errors.count, "error") %> prohibited this tipo_pgto from being saved:</h2>
+
+      <ul>
+        <% tipo_pgto.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :idPgto, style: "display: block" %>
+    <%= form.number_field :idPgto %>
+  </div>
+
+  <div>
+    <%= form.label :dscPgto, style: "display: block" %>
+    <%= form.text_field :dscPgto %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idPedido: 1
+  idProd: 1
+  qtdItem: 1
+
+two:
+  idPedido: 1
+  idProd: 1
+  qtdItem: 1

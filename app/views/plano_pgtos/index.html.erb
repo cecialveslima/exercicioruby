@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Plano pgtos</h1>
+
+<div id="plano_pgtos">
+  <% @plano_pgtos.each do |plano_pgto| %>
+    <%= render plano_pgto %>
+    <p>
+      <%= link_to "Show this plano pgto", plano_pgto %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New plano pgto", new_plano_pgto_path %>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tipo_pgto %>
+
+<div>
+  <%= link_to "Edit this tipo pgto", edit_tipo_pgto_path(@tipo_pgto) %> |
+  <%= link_to "Back to tipo pgtos", tipo_pgtos_path %>
+
+  <%= button_to "Destroy this tipo pgto", @tipo_pgto, method: :delete %>
+</div>

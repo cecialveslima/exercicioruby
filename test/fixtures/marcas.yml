@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codMar: 1
+  dscMar: MyString
+
+two:
+  codMar: 1
+  dscMar: MyString

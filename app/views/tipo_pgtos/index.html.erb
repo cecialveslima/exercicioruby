@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Tipo pgtos</h1>
+
+<div id="tipo_pgtos">
+  <% @tipo_pgtos.each do |tipo_pgto| %>
+    <%= render tipo_pgto %>
+    <p>
+      <%= link_to "Show this tipo pgto", tipo_pgto %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New tipo pgto", new_tipo_pgto_path %>

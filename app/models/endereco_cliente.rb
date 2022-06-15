@@ -1,0 +1,2 @@
+class EnderecoCliente < ApplicationRecord
+end

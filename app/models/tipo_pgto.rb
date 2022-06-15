@@ -1,0 +1,2 @@
+class TipoPgto < ApplicationRecord
+end

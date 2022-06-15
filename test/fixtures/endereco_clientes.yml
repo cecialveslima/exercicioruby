@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idEndCli: 1
+  idCli: 1
+  logradouro: MyString
+  numero: MyString
+  bairro: MyString
+  cidade: MyString
+  estado: MyString
+  cep: MyString
+  endCorrespondencia: false
+
+two:
+  idEndCli: 1
+  idCli: 1
+  logradouro: MyString
+  numero: MyString
+  bairro: MyString
+  cidade: MyString
+  estado: MyString
+  cep: MyString
+  endCorrespondencia: false

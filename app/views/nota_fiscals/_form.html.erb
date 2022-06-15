@@ -1,0 +1,32 @@
+<%= form_with(model: nota_fiscal) do |form| %>
+  <% if nota_fiscal.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(nota_fiscal.errors.count, "error") %> prohibited this nota_fiscal from being saved:</h2>
+
+      <ul>
+        <% nota_fiscal.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :idNota, style: "display: block" %>
+    <%= form.number_field :idNota %>
+  </div>
+
+  <div>
+    <%= form.label :idPedido, style: "display: block" %>
+    <%= form.number_field :idPedido %>
+  </div>
+
+  <div>
+    <%= form.label :valorNota, style: "display: block" %>
+    <%= form.text_field :valorNota %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

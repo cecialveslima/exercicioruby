@@ -1,0 +1,32 @@
+<%= form_with(model: plano_pgto) do |form| %>
+  <% if plano_pgto.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(plano_pgto.errors.count, "error") %> prohibited this plano_pgto from being saved:</h2>
+
+      <ul>
+        <% plano_pgto.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :idPlano, style: "display: block" %>
+    <%= form.number_field :idPlano %>
+  </div>
+
+  <div>
+    <%= form.label :dscPlanoPagto, style: "display: block" %>
+    <%= form.text_field :dscPlanoPagto %>
+  </div>
+
+  <div>
+    <%= form.label :idPgto, style: "display: block" %>
+    <%= form.number_field :idPgto %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

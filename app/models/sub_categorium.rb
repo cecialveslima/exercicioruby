@@ -1,0 +1,2 @@
+class SubCategorium < ApplicationRecord
+end

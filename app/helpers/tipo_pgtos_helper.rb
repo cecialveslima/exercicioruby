@@ -1,0 +1,2 @@
+module TipoPgtosHelper
+end

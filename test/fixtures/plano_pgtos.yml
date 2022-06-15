@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idPlano: 1
+  dscPlanoPagto: MyString
+  idPgto: 1
+
+two:
+  idPlano: 1
+  dscPlanoPagto: MyString
+  idPgto: 1
